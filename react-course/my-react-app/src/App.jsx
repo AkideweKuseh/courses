@@ -1,35 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Button from "./Button/Button.jsx";
 
+// const fruits = [
+//   { name: "apple", calories: 90 },
+//   { name: "orange", calories: 80 },
+//   { name: "banana", calories: 75 },
+//   { name: "pineapple", calories: 100 },
+//   { name: "watermelon", calories: 60 },
+//   { name: "guava", calories: 50 },
+// ];
+
+// const vegetables = [
+//   { name: "Tomato", calories: 40 },
+//   { name: "Potato", calories: 70 },
+//   { name: "carrots", calories: 60 },
+//   { name: "broccoli", calories: 30 },
+// ];
+
+//const emptyAray = [];
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Button />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
