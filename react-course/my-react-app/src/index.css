@@ -131,3 +131,96 @@ input[type="color"] {
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
+.delete {
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  width: 50px;
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.car {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+}
+
+.todo-list {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: start;
+  border: 2px solid hsla(0, 0%, 100%, 0.539);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.333);
+  border-radius: 10px;
+}
+
+button {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 3px;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  transform: translateY(-5px);
+}
+
+.add-button {
+  background-color: hsl(125, 47%, 54%);
+}
+
+.add-button:hover {
+  background-color: hsl(125, 47%, 34%);
+}
+
+.delete-button {
+  background-color: hsl(10, 90%, 54%);
+}
+
+.delete-button:hover {
+  background-color: hsl(10, 90%, 64%);
+}
+
+.move-button {
+  background-color: hsl(219, 80%, 56%);
+}
+
+.move-button:hover {
+  background-color: hsl(219, 80%, 36%);
+}
+
+input[type="text"] {
+  font-size: 1.25rem;
+  padding: 10px;
+  margin: 20px 10px;
+  border-radius: 10px;
+  color: hsla(0, 3%, 6%, 0.671);
+}
+
+li {
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  background-color: hsla(0, 2%, 80%, 0.463);
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+}
