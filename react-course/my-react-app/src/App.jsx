@@ -1,5 +1,16 @@
-import Button from "./Button/Button.jsx";
+import Counter from "./Counter.jsx";
 
+function App() {
+  return (
+    <div>
+      <Counter />
+    </div>
+  );
+}
+
+export default App;
+
+// ------------- Take to top when being used ---------------/
 // const fruits = [
 //   { name: "apple", calories: 90 },
 //   { name: "orange", calories: 80 },
@@ -17,12 +28,3 @@ import Button from "./Button/Button.jsx";
 // ];
 
 //const emptyAray = [];
-function App() {
-  return (
-    <>
-      <Button />
-    </>
-  );
-}
-
-export default App;
