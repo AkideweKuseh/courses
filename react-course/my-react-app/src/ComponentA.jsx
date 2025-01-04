@@ -1,3 +1,5 @@
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable no-unused-vars */
 import { useState, useContext, createContext } from "react";
 import ComponentB from "./ComponentB";
 

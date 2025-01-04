@@ -1,8 +1,8 @@
-import ComponentA from "./ComponentA";
+import AnotherComponent from "./AnotherComponent";
 
 function App() {
   return (
-      <ComponentA/>
+      <AnotherComponent/>
   );
 }
 
