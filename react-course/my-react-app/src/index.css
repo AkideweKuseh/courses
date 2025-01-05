@@ -91,15 +91,16 @@ img {
 body {
   font-family: Arial, sans-serif;
   /* background-image: url(./assets/bg.jpg); */
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  /* margin: 0; */
-  /* display: flex;
+  background-attachment: fixed; */
+  background-color: hsla(0, 4%, 73%, 0.498);
+  margin: 0;
+  display: flex;
   justify-content: center;
   height: 100vh;
-  align-items: center; */
+  align-items: center;
 }
 
 .clock-container{
@@ -187,7 +188,7 @@ input[type="color"] {
   border-radius: 10px;
 }
 
-button {
+/* button {
   font-size: 1.25rem;
   font-weight: bold;
   font-family: sans-serif;
@@ -199,7 +200,7 @@ button {
   cursor: pointer;
   transition: background-color 0.5s ease;
   background-color: hsl(160, 63%, 32%);
-}
+} */
 
 button:hover {
   transform: translateY(-5px);
@@ -262,4 +263,58 @@ li {
 h1{
   /* font-size: medium; */
   font-family: monospace;
+}
+
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  padding: 50px;
+  border-radius: 200px;
+  background-color: #fff;
+}
+
+.display{
+  font-size: 4rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsla(0, 7%, 3%, 0.573);
+  text-shadow: 2px 2px 1px black;
+  margin-bottom: 30px;
+}
+
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  transition: background-color 0.5s ease;
+}
+
+.start-button{
+  background-color: hsl(120, 65%, 55%);
+}
+.start-button:hover{
+  background-color: hsl(120, 65%, 45%);
+}
+
+.stop-button{
+  background-color: hsl(0, 88%, 53%);
+}
+.stop-button:hover{
+  background-color: hsl(0, 88%, 43%);
+}
+
+.reset-button{
+  background-color: hsl(240, 88%, 63%);
+}
+.reset-button:hover{
+  background-color: hsl(240, 88%, 53%);
 }

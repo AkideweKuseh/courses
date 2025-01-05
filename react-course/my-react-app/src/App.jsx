@@ -1,9 +1,6 @@
-import AnotherComponent from "./AnotherComponent";
-
+import StopWatch from "./StopWatch.jsx";
 function App() {
-  return (
-      <AnotherComponent/>
-  );
+  return <StopWatch />;
 }
 
 export default App;
