@@ -32,7 +32,7 @@ const fileOperations = async () => {
 };
 
 fileOperations();
-
+console.log('hello');
 // fs.readFile(
 //     path.join(__dirname, 'files', 'starter.txt'),
 //     'utf8',
