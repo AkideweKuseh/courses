@@ -31,8 +31,10 @@ const fileOperations = async () => {
     }
 };
 
+// unlink funtion can also be used to delete files
+// e.g fsPromises.unlink(path.join(__dirname, 'files'. 'starter.txt'));
+
 fileOperations();
-console.log('hello');
 // fs.readFile(
 //     path.join(__dirname, 'files', 'starter.txt'),
 //     'utf8',
@@ -70,7 +72,7 @@ console.log('hello');
 // );
 
 //exit on uncaught errors
-// process.on('uncaughtException', (err) => {
-//     console.log(`There was an uncaught error: ${err}`);
-//     process.exit(1);
-// });
+process.on('uncaughtException', (err) => {
+    console.log(`There was an uncaught error: ${err}`);
+    process.exit(1);
+});
